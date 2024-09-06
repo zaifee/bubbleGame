@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(178, 234, 178);
+}
+
+#panel{
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+#ptop{
+    display: flex;
+
+    padding: 0 25%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(72, 104, 72);
+    
+}
+.elem{
+    /* width: 30%; */
+    display: flex;
+    gap: 0.5vw;
+    
+    align-items: center;
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 21px;
+}
+.box{
+    padding: 10px 20px;
+    color: rgb(37, 233, 37);
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 550;
+    font-size: 19px;
+}
+
+#pbtm{
+    width: 100%;
+}
+#pbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(72, 104, 72);
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 550;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(93, 225, 93);
+}
+#gameOver{
+    text-align: center;
+}
